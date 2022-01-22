@@ -1,0 +1,15 @@
+{
+  "name": "FreeRTOS-Kernel",
+  "version": "10.4.6",
+  "headers": ["FreeRTOS.h"],
+  "build" : {
+    "srcFilter": [
+      "+<*.c>",
+      "-<portable/>",
+      "+<portable/GCC/ARM_CM4F/>"
+    ],
+    "flags": [
+      "-I portable/GCC/ARM_CM4F/"
+    ]
+  }
+}
