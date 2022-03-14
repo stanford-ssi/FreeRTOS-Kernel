@@ -6,7 +6,8 @@
     "srcFilter": [
       "+<*.c>",
       "-<portable/>",
-      "+<portable/GCC/ARM_CM4F/>"
+      "+<portable/GCC/ARM_CM4F/>",
+      "+<portable/MemMang/heap_1.c>"
     ],
     "flags": [
       "-I portable/GCC/ARM_CM4F/"
